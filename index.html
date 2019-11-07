@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <h2 class="gameStatusText">WELCOME!</h2>
+      <div class="enterBid">
+        <h2>Enter your bid</h2>
+        <h2>Current balance</h2>
+      </div>
+
+      <div class="enterBalance">
+        <input type="text" class="addBid" placeholder="Bid here" />
+        <!-- <input type="text" class="addBalance " placeholder="Balance" /> -->
+        <span class="currentBalance"></span>
+      </div>
+      <button class="acceptBalance">BID</button>
+      <button class="playAgain hidden">Play again?</button>
+
+      <section class="slots">
+        <div class="picBox"></div>
+        <div class="picBox"></div>
+        <div class="picBox"></div>
+      </section>
+      <button class="spinButton" disabled>TAKE A SPIN!</button>
+      <!-- <div class="tables">
+        <div class="balance">
+          <h2>Your balance</h2>
+          <span class="yourBalance"></span>
+        </div> -->
+
+        <div class="bid">
+          <h2>Your bid</h2>
+          <span class="yourBid"></span>
+        </div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
